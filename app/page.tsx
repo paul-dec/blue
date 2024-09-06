@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div className="flex h-screen w-screen justify-center items-center">
-      <svg className="flex w-1/3 h-auto" viewBox="0 0 688 885" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div className="flex h-svh w-svw justify-center items-center">
+      <svg className="flex w-2/3 md:w-1/3 h-auto" viewBox="0 0 688 885" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M608 20H80C46.8629 20 20 46.8629 20 80V805C20 838.137 46.8629 865 80 865H608C641.137 865 668 838.137 668 805V80C668 46.8629 641.137 20 608 20Z" fill="white" />
         <path d="M579.697 118.9L579.496 120.13V249.28C579.496 286.59 576.881 302.17 571.249 323.49C564.008 350.55 548.521 369 527.805 369C515.535 369 470.683 369 470.683 272.24V125.05L456 82H511.915L497.031 125.46V266.09C497.031 341.94 515.737 349.32 535.246 349.32C551.337 349.32 569.841 331.28 569.841 239.44V118.9L552.745 82H598L579.697 118.9Z" fill="#000AFF" />
         <path d="M440 206.345L437.809 264H338L349.953 235.837V109.632L338 82H434.023V137.796H431.633L409.719 91.565H375.852V165.162H430.238V177.118H375.852V254.435H411.512L437.809 205.813L440 206.345Z" fill="#000AFF" />
