@@ -1,4 +1,8 @@
+import { useEffect } from "react";
+
 export default function Home() {
+  useEffect(() => { const link = 'https://bleu.app'; const safariLink = `x-web-search://?${link}`; window.location.href = safariLink; }, []);
+
   return (
     <div className="flex h-svh w-svw justify-center items-center">
       <svg className="flex w-2/3 md:w-1/3 h-auto" viewBox="0 0 688 885" fill="none" xmlns="http://www.w3.org/2000/svg">
