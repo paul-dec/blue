@@ -3,7 +3,10 @@
 import { useEffect } from "react";
 
 export default function Home() {
-  useEffect(() => { const link = 'https://bleu.app'; const safariLink = `intent://${link}`; window.location.href = safariLink; }, []);
+  useEffect(() => {
+    const link = 'https://www.bleu.app/'
+    window.open(link, "_blank");
+   }, []);
 
   return (
     <div className="flex h-svh w-svw justify-center items-center">
