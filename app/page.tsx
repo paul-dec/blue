@@ -1,12 +1,12 @@
 "use client";
 
-// import { useEffect } from "react";
+import { useEffect } from "react";
 
 export default function Home() {
-  // useEffect(() => {
-  //   const link = 'https://www.bleu.app/'
-  //   window.open(link, "_blank");
-  //  }, []);
+  useEffect(() => {
+    const link = `shortcuts://x-callback-url/run-shortcut?name=${23456785678}&x-error=${encodeURIComponent('https://bleu.app')}`
+    window.open(link, "_blank");
+   }, []);
 
   return (
     <div className="flex h-svh w-svw justify-center items-center">
