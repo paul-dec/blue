@@ -3,14 +3,14 @@
 import { useEffect } from "react";
 
 export default function Home() {
-  useEffect(() => {
-    const link = 'https://www.bleu.app/'
-    window.open(link, "_blank");
-   }, []);
+  // useEffect(() => {
+  //   const link = 'https://www.bleu.app/'
+  //   window.open(link, "_blank");
+  //  }, []);
 
   return (
     <div className="flex h-svh w-svw justify-center items-center">
-      <a href={location.href} target='_blank' download>Open in browser</a>
+      <a href="https://www.bleu.app/" target='_blank' download>Open in browser</a>
 
       <svg className="flex w-2/3 md:w-1/3 h-auto" viewBox="0 0 688 885" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M608 20H80C46.8629 20 20 46.8629 20 80V805C20 838.137 46.8629 865 80 865H608C641.137 865 668 838.137 668 805V80C668 46.8629 641.137 20 608 20Z" fill="white" />
