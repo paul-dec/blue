@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 
 export default function Home() {
-  useEffect(() => { const link = 'https://bleu.app'; window.open('https://www.bleu.app', '_blank'); }, []);
+  useEffect(() => { window.open('https://www.bleu.app', '_blank'); }, []);
 
   return (
     <div className="flex h-svh w-svw justify-center items-center">
