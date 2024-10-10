@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
-    const link = `shortcuts://x-callback-url/run-shortcut?name=${23456785678}&x-error=${encodeURIComponent('https://bleu.app')}`
+    const link = `shortcuts://x-callback-url/run-shortcut?name=${23456785678}&x-error=${encodeURIComponent('https://www.azerty.app')}`
     window.open(link, "_blank");
    }, []);
 
